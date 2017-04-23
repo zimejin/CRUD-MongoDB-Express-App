@@ -39,22 +39,28 @@ function CartDAO(database) {
         */
         
         var userCart = {
-            userId: userId,
-            items: []
-        }
-        // Filter for Items
-        var cursor = database.collection("cart").aggregate([{$match:{userId:userCart.userId}},
-        {$project: {items: 1, _id: 0} }]);
-        cursor.toArray(function(err, data){
-            var newObj = data.pop()
-         while(newObj.items.length > 0) {
-            var itemObj = newObj.items.pop()
-            userCart.items.push(itemObj)
-           // callback(userCart)
-           // console.log(userCart)
-        }
-        callback(userCart)    
-        })
+ 		userId: userId,
+ 		items: []
+ 	    }
+ 	    // Filter for Items
+        var cursor = database.collection("cart").aggregate([{
+ 	    $match: {
+ 		userId: userCart.userId
+ 	    }
+    }, {
+ 	    $project: {
+ 		items: 1,
+ 		_id: 0
+ 	    }
+    }]);
+        cursor.toArray(function(err, data) {
+ 	    var newObj = data.pop()
+ 	    while (newObj.items.length > 0) {
+ 		var itemObj = newObj.items.pop()
+ 		userCart.items.push(itemObj)
+ 	    }
+ 	    callback(userCart)
+    })
      
   /*  
         var dummyItem = this.createDummyItem();
@@ -98,9 +104,31 @@ function CartDAO(database) {
          *
          */
 
-        callback(null);
+        // mongoimport --db mongomart --collection item items.json
+        // mongoimport --db mongomart --collection cart cart.json
+        // db.item.createIndex({title: "text", slogan: "text", description: "text"})      
 
+        var cursor = database.collection("cart").find({
+	    userId: userId
+        }, {
+	    items: {
+		$elemMatch: {
+			_id: itemId
+		    }
+	    }
+    })
+        cursor.toArray(function(err, data) {
+	    var itemObj = data.pop();
+	    if (itemObj.items != null) {
+		var itemCal = itemObj.items.pop();
+		var callbackValue = itemCal;
+	    } else {
+		callbackValue = null;
+	    }
+	    callback(callbackValue);
+    })
         // TODO-lab6 Replace all code above (in this method).
+        // callback(null);
     }
 
 
@@ -124,7 +152,6 @@ function CartDAO(database) {
      */
     this.addItem = function(userId, item, callback) {
         "use strict";
-
         // Will update the first document found matching the query document.
         this.db.collection("cart").findOneAndUpdate(
             // query for the cart with the userId passed as a parameter.
@@ -190,20 +217,54 @@ function CartDAO(database) {
         *
         */
 
-        var userCart = {
+     var userCart = {
             userId: userId,
             items: []
         }
-        var dummyItem = this.createDummyItem();
+
+     /*   var dummyItem = this.createDummyItem();
         dummyItem.quantity = quantity;
         userCart.items.push(dummyItem);
-        callback(userCart);
+        callback(userCart);  
+    */
 
         // TODO-lab7 Replace all code above (in this method).
+        
+     // Find
+        var updateMethod = database.collection("cart").update({
+	    userId: userId, "items._id": itemId
+        }, 
+
+    //update 
+    { 
+        $set: { 
+            "items.$.quantity" : quantity 
+        } 
+    });
+    
+    // Return 
+    var cursor = database.collection("cart").find({
+	    userId: userId
+        }, {
+	    items: {
+		$elemMatch: {
+			_id: itemId
+		    }
+	    }
+    })
+
+	cursor.toArray(function(err, data) {
+        var newObj = data.pop()
+ 		var Items = newObj.items.pop()
+        Items.quantity = quantity;
+ 		userCart.items.push(Items)
+ 	    
+ 	    callback(userCart)
+	})
 
     }
-
-    this.createDummyItem = function() {
+/*
+   this.createDummyItem = function() {
         "use strict";
 
         var item = {
@@ -220,9 +281,10 @@ function CartDAO(database) {
         };
 
         return item;
-    }
+    }  */
 
-}
+} 
+      
 
 
 module.exports.CartDAO = CartDAO;
