@@ -229,18 +229,34 @@ function CartDAO(database) {
     */
 
         // TODO-lab7 Replace all code above (in this method).
-        
-     // Find
-        var updateMethod = database.collection("cart").update({
-	    userId: userId, "items._id": itemId
-        }, 
 
-    //update 
-    { 
-        $set: { 
-            "items.$.quantity" : quantity 
-        } 
-    });
+        if (quantity != 0) {
+
+	// Find
+	var updateMethod = database.collection("cart").update({
+			userId: userId,
+			"items._id": itemId
+		},
+        
+   //update 
+		{
+			$set: {
+				"items.$.quantity": quantity
+			}
+		})
+} else {
+	var updateMethod = database.collection("cart").update({
+			userId: userId,
+			"items._id": itemId
+		},
+        
+   //update 
+		{
+			$pull: {
+				"items": { _id:itemId }
+			}
+		}) 
+}
     
     // Return 
     var cursor = database.collection("cart").find({
@@ -254,12 +270,13 @@ function CartDAO(database) {
     })
 
 	cursor.toArray(function(err, data) {
-        var newObj = data.pop()
- 		var Items = newObj.items.pop()
+        var newObj = data.pop() 
+        if(quantity != 0) {
+        var Items = newObj.items.pop()
         Items.quantity = quantity;
  		userCart.items.push(Items)
- 	    
  	    callback(userCart)
+        }	
 	})
 
     }
