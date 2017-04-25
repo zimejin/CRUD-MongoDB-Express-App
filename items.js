@@ -109,6 +109,7 @@ function ItemDAO(database) {
          var cursor = database.collection("item").find(query);
          cursor.sort({_id: 1});
          cursor.limit(itemsPerPage);
+         cursor.skip(itemsPerPage * page )
          // Convert Our Query Results to Array.
          cursor.toArray(function(err, data) {
          // Declare pageItems As an Empty Array for Our Callback
@@ -238,27 +239,20 @@ function ItemDAO(database) {
          *
          */
 
-        // Using itemId as our Query Variable we Convert the Cursor results to
-        // An Array Value
          var cursor = database.collection("item").find({
-           _id: itemId
-         });
-         cursor.toArray(function(err, item){
-           // Callback the Array in ItemId
-           callback(item[0]);
-         })
-    }
+	        _id: itemId
+        });
+          cursor.toArray(function(err, item) {
+	        callback(item[0]);
+        })
+      }
 
-
-    this.getRelatedItems = function(callback) {
-        "use strict";
-
-        this.db.collection("item").find({})
-            .limit(4)
-            .toArray(function(err, relatedItems) {
-                assert.equal(null, err);
-                callback(relatedItems);
-            });
+        this.getRelatedItems = function(callback) {
+	      "use strict";
+	      this.db.collection("item").find({}).limit(4).toArray(function(err, relatedItems) {
+		    assert.equal(null, err);
+		    callback(relatedItems);
+	    });
     };
 
 
