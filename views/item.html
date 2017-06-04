@@ -61,6 +61,12 @@
           <div class="col-md-8">
             <img class="img-responsive" src="/static/{{item.img_url}}" alt="">
           </div>
+          {% if item.vid_url != null %}
+          <div class="col-md-8">
+          <div style="position:relative;height:0;padding-bottom:56.25%">
+            <iframe src="{{item.vid_url}}" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+          </div> 
+          {% endif %}
           
           <div class="col-md-4">
             <h3>Product Description</h3>

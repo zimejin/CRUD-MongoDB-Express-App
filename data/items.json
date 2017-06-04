@@ -1,23 +1,280 @@
-{"_id":1,"title":"Gray Hooded Sweatshirt","slogan":"The top hooded sweatshirt we offer","description":"Unless you live in a nudist colony, there are moments when the chill you feel demands that you put on something warm, and for those times, there's nothing better than this sharp MongoDB hoodie. Made of 100% cotton, this machine washable, mid-weight hoodie is all you need to stay comfortable when the temperature drops. And, since being able to keep your vital stuff with you is important, the hoodie features two roomy kangaroo pockets to ensure nothing you need ever gets lost.","stars":0,"category":"Apparel","img_url":"/img/products/hoodie.jpg","price":29.99}
-{"_id":2,"title":"Coffee Mug","slogan":"Keep your coffee hot!","description":"A mug is a type of cup used for drinking hot beverages, such as coffee, tea, hot chocolate or soup. Mugs usually have handles, and hold a larger amount of fluid than other types of cup. Usually a mug holds approximately 12 US fluid ounces (350 ml) of liquid; double a tea cup. A mug is a less formal style of drink container and is not usually used in formal place settings, where a teacup or coffee cup is preferred.","stars":0,"category":"Kitchen","img_url":"/img/products/mug.jpg","price":12.5,"reviews":[{"name":"","comment":"","stars":5,"date":1.456067725049e+12}]}
-{"_id":3,"title":"Stress Ball","slogan":"Squeeze your stress away","description":"The moment life piles more onto your already heaping plate and you start feeling hopelessly overwhelmed, take a stress ball in hand and squeeze as hard as you can. Take a deep breath and just let that tension go. Repeat as needed. It will all be OK! Having something small, portable and close at hand is a must for stress management.","stars":0,"category":"Swag","img_url":"/img/products/stress-ball.jpg","price":5.0}
-{"_id":4,"title":"Track Jacket","slogan":"Go to the track in style!","description":"Crafted from ultra-soft combed cotton, this essential jacket features sporty contrast tipping and MongoDB's signature embroidered leaf.","stars":0,"category":"Apparel","img_url":"/img/products/track-jacket.jpg","price":45.0,"reviews":[{"name":"Shannon","comment":"This is so warm and comfortable.","stars":2,"date":1.455800194995e+12},{"name":"Bob","comment":"Love this.","stars":5,"date":1.455804800769e+12},{"name":"Jorge","comment":"Brown. It's brown.","stars":4,"date":1.455804825509e+12}]}
-{"_id":5,"title":"Women's T-shirt","slogan":"MongoDB shirt in-style","description":"Crafted from ultra-soft combed cotton, this essential t-shirt features sporty contrast tipping and MongoDB's signature leaf.","stars":0,"category":"Apparel","img_url":"/img/products/white-mongo.jpg","price":45.0}
-{"_id":6,"title":"Brown Carry-all Bag","slogan":"Keep extra items here","description":"Let your style speak for itself with this chic brown carry-all bag. Featuring a nylon exterior with solid contrast trim, brown in color, and MongoDB logo","stars":0,"category":"Swag","img_url":"/img/products/brown-bag.jpg","price":5.0}
-{"_id":7,"title":"Brown Tumbler","slogan":"Bring your coffee to go","description":"The MongoDB Insulated Travel Tumbler is smartly designed to maintain temperatures and go anywhere. Dual wall construction will keep your beverages hot or cold for hours and a slide lock lid helps minimize spills.","stars":0,"category":"Kitchen","img_url":"/img/products/brown-tumbler.jpg","price":9.0}
-{"_id":8,"title":"Pen (Green)","slogan":"The only pen you'll ever need","description":"Erase and rewrite repeatedly without damaging documents. The needlepoint tip creates clear precise lines and the thermo-sensitive gel ink formula disappears with erasing friction.","stars":0,"category":"Office","img_url":"/img/products/green-pen.jpg","price":2.0}
-{"_id":9,"title":"Pen (Black)","slogan":"The only pen you'll ever need","description":"Erase and rewrite repeatedly without damaging documents. The needlepoint tip creates clear precise lines and the thermo-sensitive gel ink formula disappears with erasing friction.","stars":0,"category":"Office","img_url":"/img/products/pen.jpg","price":2.0}
-{"_id":10,"title":"Green T-shirt","slogan":"MongoDB community shirt","description":"Crafted from ultra-soft combed cotton, this essential t-shirt features sporty contrast tipping and MongoDB's signature leaf.","stars":0,"category":"Apparel","img_url":"/img/products/green-tshirt.jpg","price":20.0}
-{"_id":11,"title":"MongoDB The Definitive Guide","slogan":"2nd Edition","description":"Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability.","stars":0,"category":"Books","img_url":"/img/products/guide-book.jpg","price":20.0}
-{"_id":12,"title":"Leaf Sticker","slogan":"Add to your sticker collection","description":"Waterproof vinyl, will last 18 months outdoors.  Ideal for smooth flat surfaces like laptops, journals, windows etc.  Easy to remove.  50% discounts on all orders of any 6+","stars":0,"category":"Stickers","img_url":"/img/products/leaf-sticker.jpg","price":1.0}
-{"_id":13,"title":"USB Stick (Green)","slogan":"1GB of space","description":"MongoDB's Turbo USB 3.0 features lightning fast transfer speeds of up to 10X faster than standard MongoDB USB 2.0 drives. This ultra-fast USB allows for fast transfer of larger files such as movies and videos.","stars":0,"category":"Electronics","img_url":"/img/products/greenusb.jpg","price":20.0,"reviews":[{"name":"Ringo","comment":"He's very green.","stars":4,"date":1.45580490225e+12}]}
-{"_id":14,"title":"USB Stick (Leaf)","slogan":"1GB of space","description":"MongoDB's Turbo USB 3.0 features lightning fast transfer speeds of up to 10X faster than standard MongoDB USB 2.0 drives. This ultra-fast USB allows for fast transfer of larger files such as movies and videos.","stars":0,"category":"Electronics","img_url":"/img/products/leaf-usb.jpg","price":20.0}
-{"_id":15,"title":"Scaling MongoDB","slogan":"2nd Edition","description":"Create a MongoDB cluster that will grow to meet the needs of your application. With this short and concise book, you'll get guidelines for setting up and using clusters to store a large volume of data, and learn how to access the data efficiently. In the process, you'll understand how to make your application work with a distributed database system.","stars":0,"category":"Books","img_url":"/img/products/scaling-book.jpg","price":29.0,"reviews":[{"name":"Horatio","comment":"This is a pretty good book","stars":4,"date":1.456086633854e+12}]}
-{"_id":16,"title":"Powered by MongoDB Sticker","slogan":"Add to your sticker collection","description":"Waterproof vinyl, will last 18 months outdoors.  Ideal for smooth flat surfaces like laptops, journals, windows etc.  Easy to remove.  50% discounts on all orders of any 6+","stars":0,"category":"Stickers","img_url":"/img/products/sticker.jpg","price":1.0}
-{"_id":17,"title":"MongoDB Umbrella (Brown)","slogan":"Premium Umbrella","description":"Our crook handle stick umbrella opens automatically with the push of a button. A traditional umbrella with classic appeal.","stars":0,"category":"Umbrellas","img_url":"/img/products/umbrella-brown.jpg","price":21.0,"reviews":[{"name":"Donald Trump","comment":"This is the best umbrella you will ever use.","stars":5,"date":1.456270097364e+12},{"name":"Shannon","comment":"Sturdy construction, but a little too big to fit in my bag for work.","stars":3,"date":1.456270240382e+12}]}
-{"_id":18,"title":"MongoDB Umbrella (Gray)","slogan":"Premium Umbrella","description":"Our crook handle stick umbrella opens automatically with the push of a button. A traditional umbrella with classic appeal.","stars":0,"category":"Umbrellas","img_url":"/img/products/umbrella.jpg","price":21.0}
-{"_id":19,"title":"MongoDB University Book","slogan":"A concise summary of MongoDB commands","description":"Keep the MongoDB commands you'll need at your fingertips with this concise book.","stars":0,"category":"Books","img_url":"/img/products/univ-book.jpg","price":4.0}
-{"_id":20,"title":"MongoDB University T-shirt","slogan":"Show Your MDBU Alumni Status","description":"Crafted from ultra-soft combed cotton, this essential t-shirt features sporty contrast tipping and MongoDB's signature leaf.","stars":0,"category":"Apparel","img_url":"/img/products/univ-tshirt.jpg","price":45.0}
-{"_id":21,"title":"USB Stick","slogan":"5GB of space","description":"MongoDB's Turbo USB 3.0 features lightning fast transfer speeds of up to 10X faster than standard MongoDB USB 2.0 drives. This ultra-fast USB allows for fast transfer of larger files such as movies and videos.","stars":0,"category":"Electronics","img_url":"/img/products/leaf-usb.jpg","price":40.0}
-{"_id":22,"title":"Water Bottle","slogan":"Glass water bottle","description":"High quality glass bottle provides a healthier way to drink.  Silicone sleeve provides a good grip, a see-through window, and protects the glass vessel.  Eliminates toxic leaching that plastic can cause.  Innovative design holds 22-1/2 ounces.  Dishwasher safe","stars":0,"category":"Kitchen","img_url":"/img/products/water-bottle.jpg","price":23.0}
-{"_id":23,"title":"WiredTiger T-shirt","slogan":"Unleash the tiger","description":"Crafted from ultra-soft combed cotton, this essential t-shirt features sporty contrast tipping and MongoDB's signature leaf.","stars":0,"category":"Apparel","img_url":"/img/products/wt-shirt.jpg","price":22.0}
+{
+	"_id": 1,
+	"title": "OMEN X VR Ready Desktop",
+	"slogan": "Are You Ready",
+	"description": "6th Generation Intel Core i7-6700K 4.0 GHz Processor (8M Cache, up to 4.2 GHz) Microsoft Windows 10 Home (64-bit)24GB Dual Channel DDR4 at 2133MHz, 3.84TB Solid State Drive + 8TB (5400 RPM) SATA Hard DriveNVIDIA GeForce GTX 1080 8GB GDDR5 Graphics (3x Display Port, 1x HDMI, 1x DVI ports)DVD/CD Burner/Writer, Wireless and Bluetooth 4.2Tuned for optimal VR performance, get equipped for the future of gaming. Liquid cooling",
+	"stars": 4,
+	"category": "Master Race",
+	"img_url": "/img/products/omen.jpg",
+    "vid_url": "https://www.youtube.com/embed/YETGsAKjIKw?ecver=2",
+	"price": 2999.00
+} {
+	"_id": 2,
+	"title": "NZXT S340 Mid Tower Computer Case, White (CA-S340W-W1)",
+	"slogan": "Next Level",
+	"description": "Case Type: Mid TowerMaterial: SECC Steel, ABS PlasticM/B Type: ATX, MicroATX, Mini-ITXExpansion Slots: 7Front I/O Panel: 2x USB 3.0 Ports, 1x Audio/MicSuperior durability - 90% steel construction",
+	"stars": 0,
+	"category": "Computer Cases",
+	"img_url": "/img/products/c3.jpg",
+    "vid_url": "https://www.youtube.com/embed/4Hozx1o188Y?ecver=2",
+	"price": 125.00,
+	"reviews": [{
+		"name": "",
+		"comment": "",
+		"stars": 5,
+		"date": 1.456067725049e+12
+	}]
+} {
+	"_id": 3,
+	"title": "Samsung CF591 Series Curved 27-Inch FHD Monitor ",
+	"slogan": "Squeeze your stress away",
+	"description": "1800R curvature of the screen provides a truly immersive viewing experienceA stylish design featuring a glossy white body with metallic silver finish and sleek curves.AMD FreeSync minimizes input latency and dramatically reduces image tearing and stutter during gaming.Powerful, built-in 5-watt stereo speakers deliver full, rich sound for watching movies or playing games.Eye Saver Mode optimizes your viewing comfort by reducing blue light emissions and flickers at the touch of a button.",
+	"stars": 4,
+	"category": "Monitor",
+	"img_url": "/img/products/sam.jpg",
+    "vid_url": "https://www.youtube.com/embed/I9xyFnM1BFk?ecver=2",
+	"price": 50.00
+} {
+	"_id": 4,
+	"title": "CORSAIR ONE Compact Gaming PC",
+	"slogan": "The Force",
+	"description": "The power of ONE: We've taken fast, quiet, and small PCs to a previously impossible level with fully custom liquid-cooling technology and a design to maximize cooling efficiencyEnabling the future: Powered by an MSI GeForce GTX 1070 graphics card, an INTEL Core i7-7700 Processor, and CORSAIR's award-winning DDR4 memoryPowerful components, faster: Delivers a true 4K and VR experience with the power of liquid cooling",
+	"stars": 0,
+	"category": "Master Race",
+	"img_url": "/img/products/cors.jpg",
+    "vid_url": "https://www.youtube.com/embed/XdtZEcppLQY?ecver=2",
+	"price": 450.00,
+	"reviews": [{
+		"name": "Shannon",
+		"comment": "Recommendable to all PCMR",
+		"stars": 2,
+		"date": 1.455800194995e+12
+	}, {
+		"name": "Bob",
+		"comment": "Love this.",
+		"stars": 5,
+		"date": 1.455804800769e+12
+	}, {
+		"name": "Jorge",
+		"comment": "Awesome Console",
+		"stars": 4,
+		"date": 1.455804825509e+12
+	}]
+} {
+	"_id": 5,
+	"title": "Alienware Area-51 ",
+	"slogan": "Bleed Blue",
+	"description": "Performance and design highlighted in brilliant form. Accept nothing less than perfection with the Dual NVIDIA® GeForce® 1070 graphics card and overclocked with K-series processor.",
+	"stars": 5,
+	"category": "Master Race",
+	"img_url": "/img/products/alien.jpg",
+    "vid_url": "https://www.youtube.com/embed/_kYgiPN-bJU?ecver=2",
+	"price": 450.00
+} {
+	"_id": 6,
+	"title": "ASUS VS228H-P 21.5",
+	"slogan": "Balance is Everything",
+	"description": "Slim Design 21.5-inch Full HD Wide Screen LED display and Quick 5 ms response time delivering smooth video displayAspect Control function allows users to select a preferred display mode among Full and 4:3 for true-to-life gaming or movie watching without any data loss or image distortion.Smart View Technology can adjust color parameters to deliver the same image quality and colors with straight viewing.Splendid Video Intelligence Technology optimizes video performance and image fidelity by enhancing color, brightness, contrast, and sharpness.50,000,000:1 ASUS Smart Contrast Ratio dynamically enhances the display’s contrast to delivering lifelike images. Inputs of D-Sub, DVI, HDMI.",
+	"stars": 4,
+	"category": "Monitor",
+	"img_url": "/img/products/asusmon.jpg",
+	"vid_url": "https://www.youtube.com/embed/9hN9n8g5mdA?ecver=2",
+	"price": 500.0
+} {
+	"_id": 7,
+	"title": "SilverStone Technology ATX Gaming Computer Case - Black with Red LED (RL05BR-W)",
+	"slogan": "Bring your coffee to go",
+	"description": "Includes front mounted USB 3.0 Type-C portIncludes two 140mm LED fans designed to generate positive pressureSuper clean internal look with PSU and drive bay coverMotherboard back plate opening for quick CPU cooler assemblySupports graphics cards up to 14.7",
+	"stars": 5,
+	"category": "Computer Cases",
+	"img_url": "/img/products/c1.jpg",
+    "vid_url": "https://www.youtube.com/embed/QlX7AZnjpCY?ecver=2",
+	"price": 900.0
+} {
+	"_id": 8,
+	"title": "Corsair Crystal Series 570X RGB - Tempered Glass, Premium ATX Mid-Tower Case Cases CC-9011098-WW",
+	"slogan": "Balance is Everything",
+	"description": "Four tempered glass panels on the front, top, and sides of the case / Three included SP120 RGB LED fans and integrated RGB controllerRoom for up to six case fans, and compatible with 360mm, 280mm, 240mm, and 120mm radiators / Removable fan trays in the front and top of the chassisCable routing channels with included velcro cable straps for clean cable management / Easy-access high-speed USB 3.0 front panelBright white LED backlit CORSAIR logo on front panel and PSU cover (removable)",
+	"stars": 0,
+	"category": "Computer Cases",
+	"img_url": "/img/products/c4.jpg",
+    "vid_url": "https://www.youtube.com/embed/r3Wd-7h_tD0?ecver=2",
+	"price": 230.0
+} {
+	"_id": 9,
+	"title": "ASUS K501UW-AB78 15.6-inch Full-HD Gaming Laptop ",
+	"slogan": "Inspiring Innovation",
+	"description": "Powerful 6th-generation Intel Core i7-6500U 2.5GHz Windows 10 Operating System.",
+	"stars": 5,
+	"category": "Electronics",
+	"img_url": "/img/products/asus.jpg",
+	"vid_url": "https://www.youtube.com/embed/Z2vlynTXjqA?ecver=2",
+	"price": 800.0
+} {
+	"_id": 10,
+	"title": "LG Electronics UM57 25UM57 25-Inch Screen LED-lit Monitor",
+	"slogan": "Squeeze your stress away",
+	"description": "LG Electronics UM57 25UM57 25-Inch Screen LED-lit Monitor",
+	"stars": 0,
+	"category": "Monitor",
+	"img_url": "/img/products/lg.jpg",
+    "vid_url": "https://www.youtube.com/embed/fWoH4EvPah0?ecver=2",
+	"price": 500.0
+} {
+	"_id": 11,
+	"title": "Zalman Z9 Neo Performance Gaming Mid Tower Case, White",
+	"slogan": "Build with Ease",
+	"description": "Case: Mid Tower / Dimensions: 205(W)x490(H)x482(D)mm; 8.1x19.3x19 in / Motherboards: ATX, Micro ATX, ITX / Power Supply: ATX / ATX 12V /Expansion Slots: 7 / I/O: 1xMic, 1x Headphones, 2x2.0 USB, 2x3.0 USBVGA: Up to 420mm / CPU Cooler: Up to 160mm / Water Cooler: Up to Dual 240mm / Drive Bay: External 2x5.25, Internal 4x3.5, Internal 6x2.5/ Cooling: Front 2x120 included, Rear 1x120mm included, Top 2x120mm LED included Excellent expandability of 6 ODD/HDD/SDD. 160mm tall CPU Cooler and dual 240mm water cooler installable",
+	"stars": 0,
+	"category": "Computer Cases",
+	"img_url": "/img/products/c2.jpg",
+    "vid_url": "https://www.youtube.com/embed/7X2p1HE4_Xo?ecver=2" ,
+	"price": 293.0
+} {
+	"_id": 12,
+	"title": "Razer Ornata Chroma – Revolutionary Mecha-Membrane Gaming Keyboard",
+	"slogan": "For Gamers, by Gamers",
+	"description": "Designed from the ground up, the all-new Razer Mecha-Membrane combines the soft cushioned touch of a membrane rubber dome with the crisp tactile click of a mechanical switch.The Razer Ornata Chroma features a custom designed keycap that has been made shorter to reduce the time it takes for your actions to register.The Razer Ornata features individually programmable backlit keys along with dynamic lighting effects all set easily through Razer Synapse.Ergonomic wrist rest - For extended gaming comfort.10 key roll-over anti-ghosting.",
+	"stars": 4,
+	"category": "Gaming Keyboard",
+	"img_url": "/img/products/k1.jpg",
+    "vid_url": "https://www.youtube.com/embed/5WrVxwCOo8Y?ecver=2",
+	"price": 293.0
+} {
+	"_id": 13,
+	"title": "Corsair Gaming K55 RGB Keyboard, Backlit RGB LED",
+	"slogan": "Open Other Horizons",
+	"description": "Three-zone dynamic RGB backlighting with 10+ preconfigured vivid RGB lighting modes allow you to choose immersive lighting effects6 programmable macro keys enable powerful actions, key remaps and combosDedicated Volume and multimedia controls for direct Audio control without interrupting your gameQuiet and responsive keys give a satisfying feelMulti-key anti-ghosting ensures the most accurate simultaneous key presses",
+	"stars": 5,
+	"category": "Gaming Keyboard",
+	"img_url": "/img/products/k2.jpg",
+    "vid_url": "https://www.youtube.com/embed/80TOYweePDc?ecver=2",
+	"price": 238.0
+} {
+	"_id": 14,
+	"title": "DBPOWER Three Colors Backlit LED Gaming Keyboard",
+	"slogan": "Best Of Technology",
+	"description": "Gamer's Equipment. 104 keys, 19 keys non-conflict, removable keycaps, strengthened space key. Specially designed keys for enhanced durability and tactile feedback, professional gaming feeling.3 Colors LED Backlit. Cool LED backlighting on keyboard, 3 colors changeable breathing or permanent lighting mode. You can adjust backlit and breathing mode whatever you are playing game or working.Easy to Operate. USB plug and play, no driver needed. Anti-skid and waterproof design. Laser carving characters, non-slip design, splash proof and durable.User-Friendly. Quickly control each function, multimedia keys provide shortcuts operate. ergonomic design, comfortable to operate.Compatible with Windows 8, Windows 7, Windows Vista, or Windows XP, Mac OS.",
+	"stars": 5,
+	"category": "Gaming Keyboard",
+	"img_url": "/img/products/k3.jpg",
+    "vid_url": "https://www.youtube.com/embed/44J1b0OzcuI?ecver=2",
+	"price": 263.0
+} {
+	"_id": 15,
+	"title": "Redragon K552 KUMARA LED Backlit Mechanical Gaming Keyboard",
+	"slogan": "Enter the Dragon",
+	"description": "Custom mechanical switches (Cherry Green equivalent) for ultimate gaming performanceRed LED adjustable lighting and double-shot injection molded keycaps for crystal clear backlightingMetal and ABS construction, mechanical keys, and gold plated USB connector stand up to hardcore gamingCustom mechanical switches designed for longevity, responsiveness, and durability. Mechanical keys with medium resistance, audible click sound, and tactile feedback87 standard conflict free keys, 12 multimedia keys, and splash-proof design",
+	"stars": 5,
+	"category": "Gaming Keyboard",
+	"img_url": "/img/products/k4.jpg",
+    "vid_url": "https://www.youtube.com/embed/AhbZVTaJi48?ecver=2",
+	"price": 273.0
+} {
+	"_id": 16,
+	"title": "EVGA GeForce GTX 1050 GAMING",
+	"slogan": "Crunching for Humanity",
+	"description": "New NVIDIA Pascal™ architecture delivers improved performance and power efficiencyClassic and modern games at 1080p at 60 FPSFast, smooth, power-efficient gaming experiencesBase Clock: 1354 MHz / Boost Clock: 1455 MHz; Memory Detail: 2048MB GDDR5EVGA GTX 1050 GAMING - Compact Size 5.7in",
+	"stars": 4,
+	"category": "Graphic Cards",
+	"img_url": "/img/products/g1.jpg",
+    "vid_url": "https://www.youtube.com/embed/eM0CD20VxpY?ecver=2" ,
+	"price": 2883.0
+} {
+	"_id": 17,
+	"title": "MSI Gaming GeForce GTX 1070 8GB GDDR5 SLI DirectX 12 VR Ready Graphics Card",
+	"slogan": "Innovation with Style",
+	"description": "Chipset: NVIDIA GeForce GTX 1070Video Memory: 8GB GDDR5Memory Clock: 8108 MHz (oc mode) ; Memory 8GB GDDR5 (256-bit) , Interface: PCI Express x16 3.0Max. Resolution: 7680 x 4320, support 4x Display monitorsPlease Note: Kindly refer the User Guide before use.",
+	"stars": 5,
+	"category": "Graphic Cards",
+	"img_url": "/img/products/g2.jpg",
+    "vid_url": "https://www.youtube.com/embed/BHH-ycqpYuA?ecver=2",
+	"price": 2673.0
+} {
+	"_id": 18,
+	"title": "ZOTAC GeForce GTX 1070 Mini 8GB GDDR5 VR Ready Super Compact Gaming Graphics Card",
+	"slogan": "Power to Gamers",
+	"description": "New Pascal Architecture8 GB 256-bit GDDR5Virtual Reality Ready1x Dual-link DVI, 3x DisplayPort (version 1.4), 1x HDMI (2.0b)Boost Clock 1708 MHzExtended warranty included with every graphics card purchase. User registration required on ZOTAC website.",
+	"stars": 4,
+	"category": "Graphic Cards",
+	"img_url": "/img/products/g3.jpg",
+    "vid_url": "https://www.youtube.com/embed/3md1Spj_im4?ecver=2",
+	"price": 2233.0
+} {
+	"_id": 19,
+	"title": "Intel Xeon E3-1275 Processors",
+	"slogan": "Sponsors of tomorrow,",
+	"description": "Xeon E3-1275 v6 is a 64-bit quad-core x86 workstation/entry server microprocessor introduced by Intel in early 2017.This chip, which is based on the Kaby Lake microarchitecture, is fabricated on Intel's 14nm+ process.The E3-1275 v6 operates at 3.8 GHz with a TDP of 73 W supporting a Turbo Boost frequency of 4.2 GHz.The processor supports up to 64 GiB of dual-channel DDR4-2400 ECC memory and incorporates Intel's HD Graphics P630 IGP operating at 350 MHz with a burst frequency of 1.15 GHz.",
+	"stars": 5,
+	"category": "Processors",
+	"img_url": "/img/products/p1.jpg",
+    "vid_url": "https://www.youtube.com/embed/yQ59vHSFfZA?ecver=2",
+	"price": 223.0
+} {
+	"_id": 20,
+	"title": "AMD FD8350FRHKBOX FX-8350 FX-Series 8-Core Black Edition Processor",
+	"slogan": "Visionary Technology",
+	"description": "Frequency: 4.0/4.2GHZ (Base/Overdrive)Cores: 8Cache: 8/8MB (L2/L3)Socket Type: AM3+Power Wattage: 125W",
+	"stars": 3,
+	"category": "Processors",
+	"img_url": "/img/products/p2.jpg",
+    "vid_url": "https://www.youtube.com/embed/g64YJj2UQuA?ecver=2",
+	"price": 233.0
+} {
+	"_id": 21,
+	"title": "AMD Ryzen 7 1700 Processor with Wraith Spire LED Cooler ",
+	"slogan": "Visionary Technology",
+	"description": "Frequency: 3.7 GHz Precision Boost8 Cores/16 Threads UNLOCKEDCache: 4 MB/16 MB (L2/L3)Socket Type: AM4Thermal Solution: Wraith Spire LED Cooler",
+	"stars": 4,
+	"category": "Processors",
+	"img_url": "/img/products/p3.jpg",
+    "vid_url": "https://www.youtube.com/embed/LzIIIoSveU0?ecver=2",
+	"price": 223.0
+} {
+	"_id": 22,
+	"title": "WD Blue 1TB SATA 6 Gb/s 7200 RPM 64MB Cache 3.5 Inch Desktop Hard Drive",
+	"slogan": "Forever Digital",
+	"description": "IntelliSeek: Calculates optimum seek speeds to lower power consumption, noise and vibration.Data LifeGuard: Advanced algorithms monitor your drive continuously so it stays in optimum health.NoTouch Ramp Load Technology: Safely positions the recording head off the disk surface to protect your data.Package includes a hard drive only - no screws, cables, manuals included. Please purchase mounting hardware and cables separately if necessary.2-year manufacturer limited warranty",
+	"stars": 5,
+	"category": "Memory",
+	"img_url": "/img/products/M1.jpg",
+	"vid_url": "https://www.youtube.com/embed/lw2-lrHAmCI?ecver=2",
+	"price": 123.0
+} {
+	"_id": 23,
+	"title": "WD 4TB My Cloud Personal Network Attached Storage - NAS - WDBCTL0040HWT-NESN",
+	"slogan": "Forever Digital",
+	"description": "4TB Storage Capacity, Back up files from all your computersGigabit Ethernet and USB 3.0, Blazing-fast file transfersPackage Includes: Personal cloud storage, Ethernet cable, AC adapter and Quick Install Guide, DLNA 1.5 and UPnP CertifiedAuto Network DiscoveryWindows and Mac CompatibleStream to your DLNA/UPnP-certified connected TVs, media players and gaming consoles",
+	"stars": 5,
+	"category": "Memory",
+	"img_url": "/img/products/m2.jpg",
+    "vid_url": "https://www.youtube.com/embed/OWL8NCk5FLw?ecver=2" ,
+	"price": 423.0
+} {
+	"_id": 24,
+	"title": "Samsung 850 PRO - 1TB - 2.5-Inch SATA III Internal SSD ",
+	"slogan": "Imagine the Possibilities",
+	"description": "The World's First Consumer SSD Powered by Samsung V-NAND Technology, Ideal for Hardcore PC Gamers, Heavy PC Users, Business ProfessionalUltimate Sequential Read/Write Performance : Up to 550MB/s and 520MB/s Respectively, and Random Read/Write IOPS Performance : Up to 100K and 90K RespectivelyPerformance, Reliability, Energy Efficiency, and Industry-Leading 10-year Limited WarrantyIncluded Contents: 2.5” (7mm) SATA III (6GB/s) SSD & User Manual (All Other Cables, Screws, Brackets Not Included).Free download of Samsung Data Migration and Magician software available for easy installation and SSD management. The 850 PRO's advanced security complies with the TCG™ Opal v2.0 standard and is compatible with the Microsoft® eDrive IEEE® 1667 protocol.",
+	"stars": 5,
+	"category": "Memory",
+	"img_url": "/img/products/m3.jpg",
+	"price": 523.0
+} {
+	"_id": 25,
+	"title": "MSI Computer X99A GAMING PRO CARBON ATX Motherboards",
+	"slogan": "Buidling Better Tommorows",
+	"description": "CPU: LGA 2011-v3Memory: 8x DDR4-3466(OC)/ 3400(OC)/ 3333(OC)/ 3200(OC)/ 3000(OC)/ 2933(OC)/ 2800(OC)/ 2666(OC)/ 2600(OC)/ 2400(OC)/ 2200(OC)/ 2133 DIMM Slots, Quad-Channel, max capacity up to 128GBSlots: 4x PCI-Express 3.0 x16 Slots, 2x PCI-Express 2.0 x1 SlotsSATA: 10x SATA3 Ports, M.2: 1x M.2 port, U.2: 1x U.2 portPorts: 11x USB 3.1 Ports , 8x USB 2.0 Ports, 1x PS/2 keyboard/mouse combo port, 1x Optical s/PDIF out, 1x RJ45 LAN port, Audio I/O jacks",
+	"stars": 5,
+	"category": "MotherBoards",
+	"img_url": "/img/products/mb1.jpg",
+	"price": 4523.0
+} {
+	"_id": 26,
+	"title": "Corsair CS Series, CS550M, 550 Watt (550W), Semi Modular Power Supply, 80+ Gold Certified",
+	"slogan": "Reach for Perfection",
+	"description": "The latest ATX12V v2.4 and EPS 2.92 standards and it is backward compatible with ATX12V 2.2, 2.31 and ATX12V 2.01 systems4th generation Intel Core processor Ready (Intel Haswell and Z87 motherboards)80PLUS Gold certified, delivering over 92% energy efficiency at real world load conditionsThe low-profile, flat modular cable design reduces air friction and helps maximize airflow through your computer's chassisA three year warranty and lifetime access to Corsair's legendary technical support and customer serviceActive Power Factor Correction (PFC) with PF value of 0.99",
+	"stars": 5,
+	"category": "Power Supply",
+	"img_url": "/img/products/s1.jpg",
+	"price": 523.0
+}
