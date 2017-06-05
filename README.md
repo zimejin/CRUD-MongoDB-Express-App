@@ -32,6 +32,4 @@ Run the application by typing "node mongomart.js" in the mongomart directory.
 
 And there you have it :-) whew!
 
-![Image](https://github.com/zimejin/Mongo-mart/blob/master/static/img/mmart.jpg?raw=true)
-
 ![Image](https://github.com/zimejin/Mongo-mart/blob/master/pc%20mart.jpg?raw=true)
