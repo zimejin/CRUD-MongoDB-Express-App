@@ -72,12 +72,12 @@
 
                 <!-- Project One -->
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-3">
                         <a href="/item/{{item._id}}">
                             <img class="img-responsive" src="/static/{{item.img_url}}" alt="">
                         </a>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-3">
                         <h3><a href="/item/{{item._id}}">{{item.title}}</a></h3>
                         <h4>{{item.slogan}}</h4>
                         <p>{{item.description}}</p>
@@ -127,17 +127,16 @@
                     </ul>
                 </div>
             </div>
-
-            {% if useRangeBasedPagination == false %}
+            
+            <!-- /.row -->
+        </div>
+        {% if useRangeBasedPagination == false %}
 
                 <div style="text-align:center;">
                     <i>{{itemCount}} Products</i>
                 </div>
 
             {% endif %}
-
-            <!-- /.row -->
-        </div>
     </div>
 
 </div>
