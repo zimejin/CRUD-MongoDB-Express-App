@@ -12,24 +12,39 @@ Requires
 Node.js (with npm)
 MongoDB 3.2.x, using the WiredTiger (default for 3.2) storage engine
 Knowledge of Commandline interface.
-Getting Started
+Getting Started (windows)
 
-* First Open the commandline and cd to the project directory
-* Install required npm depedencies by running npm install
-* cd again to data (Mongo-mart/data) directory, while in the directory
+* Open a terminal and type "mongod" into the commandline and press enter
+- This would start a mongodb server, minimize the terminal.
 
-- Import the item collection and cart collection by typing
-- mongoimport --db mongomart --collection item items.json
-- mongoimport --db mongomart --collection cart cart.json
+* Open the anotehr terminal, in the commandline cd to the project's root directory.
+* Install the required depedencies by running "npm install"
 
-* Then Create a Text Index by running the following code
+* Open another terminal and cd to data (Mongo-mart/data) directory, while in the directory run the following code
+* mongoimport --db mongomart --collection item items.json
+* mongoimport --db mongomart --collection cart cart.json
 
-  db.item.createIndex({title: "text", slogan: "text", description: "text"})
+// This would import the item collection and cart collection.
 
-* Finally cd back to root project directory (cd Mongo-mart)
 
-Run the application by typing "node mongomart.js" in the mongomart directory.
+- After the database is imported, go ahead and close that terminal.
 
-And there you have it :-) whew!
+* Then on the terminal where the root directory is open create a Text Index by running the following code
+* "mongo"                 //This would start a mongodb shell. Then Type the following code
+* show dbs                // This would display a list of dbs
+* "use mongomart"         // mind the format. mongomart, mongo mart. 
+
+ - Then run the next line of code.
+
+* db.item.createIndex({title: "text", slogan: "text", description: "text"}) 
+Hopefully if all went as planned you would have created a new Text index. Press ctrl + c to exit the ongo shell.
+
+* Finally in the root project directory in the terminal (/Mongo-mart) run the following command.
+
+Run the application by typing 
+
+* node mongomart.js    
+
+And there you have it :) whew!
 
 ![Image](https://github.com/zimejin/Mongo-mart/blob/master/pc%20mart.jpg?raw=true)
