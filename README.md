@@ -50,8 +50,8 @@ And there you have it :) whew!
 ![Image](https://github.com/zimejin/Mongo-mart/blob/master/pc%20mart.jpg?raw=true)
 
 
-![Image](https://github.com/zimejin/Mongo-mart/blob/master/ScreenShot%20mart.jpg?raw=true)
+![Image](https://github.com/zimejin/Mongo-mart/blob/master/ScreenShot%20mart.png?raw=true)
 
 
-![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen%20mart.jpg?raw=true)
+![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen%20mart.png?raw=true)
 
