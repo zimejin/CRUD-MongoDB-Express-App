@@ -8,7 +8,10 @@ About
 
 MongoMart is the final lab project in M101JS mongodb for javascript course provided by MongoDB.
 MongoMart is an ecommerce site that allows the user to browse for and add MongoDB products to their cart.
-There is no user session at the moment, so the user id is hard coded.
+There is no user session at the moment, so the user id is hard coded. I've alway improving the Application, So
+feel free to submit any pull request. 
+
+ - Zimuzo Ejin
 
 Requires
 
@@ -21,7 +24,7 @@ Getting Started (windows)
 - This would start a mongodb server, minimize the terminal.
 
 * Open the anotehr terminal, in the commandline cd to the project's root directory.
-* Install the required depedencies by running "npm install"
+* Install the required dependencies by running "npm install"
 
 * Open another terminal and cd to data (Mongo-mart/data) directory, while in the directory run the following code
 * mongoimport --db mongomart --collection item items.json
@@ -35,18 +38,14 @@ Getting Started (windows)
 * Then on the terminal where the root directory is open create a Text Index by running the following code
 * "mongo"                 //This would start a mongodb shell. Then Type the following code
 * show dbs                // This would display a list of dbs
-* "use mongomart"         // mind the format. mongomart, mongo mart. 
-
- - Then run the next line of code.
-
+* "use mongomart"          // This selects mongomart as the db of choice
 * db.item.createIndex({title: "text", slogan: "text", description: "text"}) 
-Hopefully if all went as planned you would have created a new Text index. Press ctrl + c to exit the ongo shell.
 
-* Finally in the root project directory in the terminal (/Mongo-mart) run the following command.
+Hopefully if all went as planned you would have created a new Text index. Press ctrl + c to exit the mongo shell.
 
-Run the application by typing 
+* Finally in the root project directory, still in the terminal type the following command to run the application.
 
-* node mongomart.js    
+* "node mongomart.js"    
 
 And there you have it :) whew!
 
