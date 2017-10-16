@@ -1,9 +1,10 @@
 About
 
-MongoMart is the final lab project in M101JS mongodb for javascript course provided by MongoDB.
-MongoMart is an ecommerce site that allows the user to browse for and add MongoDB products to their cart.
-There is no user session at the moment, so the user id is hard coded. I've alway improving the Application, So
-feel free to submit any pull request. 
+MongoMart | PC Mart was my final lab project in mongodb for Node.js Developers course provided by MongoDB. 
+I've cycled through the project a couple of times to add new features or UI updates.
+
+MongoMart | PC Mart is an ecommerce application that allows the user to browse for and add MongoDB products to their cart.
+There is no user session at the moment, so the user id is hard coded. 
 
  Sincerely
  
