@@ -1,9 +1,3 @@
-# Mongo-mart
-JavaScript E-commerce Application, Using Node, Express and MongoDB
-
-![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen%20mart.png?raw=true)
-
-
 About
 
 MongoMart is the final lab project in M101JS mongodb for javascript course provided by MongoDB.
@@ -11,7 +5,12 @@ MongoMart is an ecommerce site that allows the user to browse for and add MongoD
 There is no user session at the moment, so the user id is hard coded. I've alway improving the Application, So
 feel free to submit any pull request. 
 
- - Zimuzo Ejin
+ Sincerely
+ 
+ Zimuzo Ejin
+
+![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen%20mart.png?raw=true)
+
 
 Requires
 
