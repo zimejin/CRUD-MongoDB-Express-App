@@ -12,8 +12,6 @@ There is no user session at the moment, so the user id is hard coded.
  
 ----------------------------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------------------------
-
 
 ![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen%20mart.png?raw=true)
 
@@ -28,7 +26,7 @@ Getting Started (windows)
 * Open a terminal and type "mongod" into the commandline and press enter
 - This would start a mongodb server, minimize the terminal.
 
-* Open the anotehr terminal, in the commandline cd to the project's root directory.
+* Open the another terminal, in the commandline cd to the project's root directory.
 * Install the required dependencies by running "npm install"
 
 * Open another terminal and cd to data (Mongo-mart/data) directory, while in the directory run the following code
@@ -68,7 +66,8 @@ And there you have it :) whew!
 
 Todo
 
-* Firebase Authentication
-* Payment Request API
+* Firebase Authentication [ Email ]
+* Payment Request API [ Demo ] 
 * Material Design Lite [ Navbar and Sidebar ]
-* Deploy to MongoDB Atlas
+* Deploy DB&App to MongoDB Atlas & Heroku 
+* Add Game Titles to Category of Items for Sale.
