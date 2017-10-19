@@ -9,9 +9,12 @@ Google images and Amazon product descriptions.
 
  Sincerely
  
- Zimuzo Ejin
+ Me!
  
 ----------------------------------------------------------------------------------------------------------------------
+
+Screen Shots
+------------------
 
 
 ![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen%20mart.png?raw=true)
