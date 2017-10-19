@@ -3,7 +3,7 @@ About
 MongoMart | PC Mart was my final lab project in mongodb for Node.js Developers course provided by MongoDB. 
 I've cycled through the project a couple of times to add new features or UI updates.
 
-MongoMart | PC Mart is an ecommerce application that allows the user to browse for and add MongoDB products to their cart.
+MongoMart | PC Mart is an ecommerce application that allows the user to browse for and add products to their cart.
 There is no user session at the moment, so the user id is hard coded. 
 
  Sincerely
@@ -68,6 +68,7 @@ Todo
 
 * Firebase Authentication [ Email ]
 * Payment Request API [ Demo ] 
+* UI update [ Product Page ]
 * Material Design Lite [ Navbar and Sidebar ]
 * Deploy DB&App to MongoDB Atlas & Heroku 
 * Add Game Titles to Category of Items for Sale.
