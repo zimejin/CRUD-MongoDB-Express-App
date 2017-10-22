@@ -11,15 +11,8 @@ function CartDAO(database) {
     this.getCart = function(userId, callback) {
         "use strict";
 
-        /*
-        * TODO-lab5
-        *
-        * LAB #5: Implement the getCart() method.
-        *
-        * Query the "cart" collection by userId and pass the cart to the
-        * callback function.
-        *
-        */
+        /*  Query the "cart" collection by userId and pass the cart to the
+            callback function.  */
         
         var userCart = {
  		userId: userId,
@@ -51,17 +44,9 @@ function CartDAO(database) {
     this.itemInCart = function(userId, itemId, callback) {
         "use strict";
 
-        /*
-         *
-         * TODO-lab6
-         *
-         * LAB: #6
-         *
-         * Write a query that will determine whether or not the cart associated
-         * with the userId contains an item identified by itemId. If the cart
-         * does contain the item, pass the item to the callback. If it does not,
-         * pass the value null to the callback.
-         */
+        /*  We write a query to determine whether or not the cart associated
+        with the userId contains an item identified by itemId.
+        */
 
       /*    mongoimport --db mongomart --collection item items.json
             mongoimport --db mongomart --collection cart cart.json
@@ -89,8 +74,7 @@ function CartDAO(database) {
 }
 
 
-    /*
-     * http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#findOneAndUpdate
+    /*  http://mongodb.github.io/node-mongodb-native/2.0/api/Collection.html#findOneAndUpdate
      */
     this.addItem = function(userId, item, callback) {
         "use strict";
@@ -101,11 +85,6 @@ function CartDAO(database) {
             // update the user's cart by pushing an item onto the items array
             {"$push": {items: item}},
             // findOneAndUpdate() takes an options document as a parameter.
-            // Here we are specifying that the database should insert a cart
-            // if one doesn't already exist (i.e. "upsert: true") and that
-            // findOneAndUpdate() should pass the updated document to the
-            // callback function rather than the original document
-            // (i.e., "returnOriginal: false").
             {
                 upsert: true,
                 returnOriginal: false
@@ -143,20 +122,16 @@ function CartDAO(database) {
         "use strict";
 
         /*
-        * TODO-lab7
-        *
-        * LAB #7: Update the quantity of an item in the user's cart in the
-        * database by setting quantity to the value passed in the quantity
-        * parameter. If the value passed for quantity is 0, remove the item
-        * from the user's cart stored in the database.
+        We update the quantity of an item in the user's cart in the
+        database by setting quantity to the value passed in the quantity
+        parameter. If the value passed for quantity is 0, the item is removed
+        from the user's cart stored in the database.
         */
 
      var userCart = {
             userId: userId,
             items: []
         }
-
-        // TODO-lab7 Replace all code above (in this method).
 
         if (quantity != 0) {
 

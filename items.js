@@ -9,29 +9,10 @@ function ItemDAO(database) {
 
     this.getCategories = function(callback) {
         "use strict";
-
-        /*
-        * TODO-lab1A
-        *
-        * LAB #1A: Implement the getCategories() method.
-        *
-        * Write an aggregation query on the "item" collection to return the
-        * total number of items in each category. The documents in the array
-        * output by your aggregation should contain fields for "_id" and "num".
-        *
-        * HINT: Test your mongodb query in the shell first before implementing
-        * it in JavaScript.
-        *
-        * In addition to the categories created by your aggregation query,
-        * include a document for category "All" in the array of categories
-        * passed to the callback. The "All" category should contain the total
-        * number of items across all categories as its value for "num". 
-        *
-        * Ensure categories are organized in alphabetical order before passing
-        * to the callback.
-        *
-        */
-
+       /* An aggregation query on the "item" collection to return the
+       total number of items in each category.
+       */
+      
         // Run a MongoDB query to group the category and provide a
         // sum of the category.
         var categories = [];
@@ -61,23 +42,9 @@ function ItemDAO(database) {
     this.getItems = function(category, page, itemsPerPage, callback) {
         "use strict";
 
-        /*
-         * TODO-lab1B
-         *
-         * LAB #1B: Implement the getItems() method.
-         *
-         * Create a query on the "item" collection to select only the items
-         * that should be displayed for a particular page of a given category.
-         * The category is passed as a parameter to getItems().
-         *
-         * Sort items in ascending order based on the _id field. You must use
-         * this sort to answer the final project questions correctly.
-         *
-         * Note: Since "All" is not listed as the category for any items,
-         * you will need to query the "item" collection differently for "All"
-         * than you do for other categories.
-         *
-         */
+        /* A query on the "item" collection to select only the items
+        that should be displayed for a particular page of a given category.
+        */
 
          // Query the Database for the particular Category
          // Using the Conditional Ternary Operator
@@ -100,15 +67,9 @@ function ItemDAO(database) {
     this.getNumItems = function(category, callback) {
         "use strict";
 
-        /*
-         * TODO-lab1C:
-         *
-         * LAB #1C: Implement the getNumItems method()
-         *
-         * Write a query that determines the number of items in a category
-         * and pass the count to the callback function. 
-         *
-         */
+        /*  A query that determines the number of items in a category
+        and pass the count to the callback function. 
+        */
 
         // Get the Query for Category From DB. Using Ternary Operator
         var query = category== 'All' ? {} : {category: category}
@@ -124,26 +85,6 @@ function ItemDAO(database) {
 
     this.searchItems = function(query, page, itemsPerPage, callback) {
         "use strict";
-
-        /*
-         * TODO-lab2A
-         *
-         * LAB #2A: Implement searchItems()
-         *
-         * Using the value of the query parameter passed to searchItems(),
-         * perform a text search against the "item" collection.
-         *
-         * Sort the results in ascending order based on the _id field.
-         *
-         * Select only the items that should be displayed for a particular
-         * page. For example, on the first page, only the first itemsPerPage
-         * matching the query should be displayed.
-         *
-         * searchItems() depends on a text index. Before implementing
-         * this method, create a SINGLE text index on title, slogan, and
-         * description. You should simply do this in the mongo shell.
-         *
-         */
 
          // Text Search on MongoDB for the Variable Value of Query
          var cursor = database.collection("item").find({
@@ -165,14 +106,6 @@ function ItemDAO(database) {
 
         var numItems = 0;
 
-        /*
-        * TODO-lab2B
-        *
-        * LAB #2B: Using the value of the query parameter passed to this
-        * method, count the number of items in the "item" collection matching
-        * a text search. Pass the count to the callback function.
-        */
-
         // Get the Text Search Results from MongoDB and Convert to Array
         var cursor = database.collection("item").find({
           $text:{
@@ -189,15 +122,7 @@ function ItemDAO(database) {
     this.getItem = function(itemId, callback) {
         "use strict";
 
-        /*
-         * TODO-lab3
-         *
-         * LAB #3: Implement the getItem() method.
-         *
-         * Using the itemId parameter, query the "item" collection by
-         * _id and pass the matching item to the callback function.
-         *
-         */
+        /*  Implement the getItem() method. */
 
          var cursor = database.collection("item").find({
 	        _id: itemId
@@ -219,12 +144,7 @@ function ItemDAO(database) {
     this.addReview = function(itemId, comment, name, stars, callback) {
         "use strict";
 
-        /*
-         * TODO-lab4
-         *
-         * LAB #4: Implement addReview().
-         *
-         */
+        /*  Implement addReview().  */
 
         var reviewDoc = {
             name: name,
@@ -254,7 +174,7 @@ function ItemDAO(database) {
             stars: 0,
             category: "Apparel",
             img_url: "/img/products/hoodie.jpg",
-            price: 29.99,
+            price: 29.00,
             reviews: []
         };
 
