@@ -31,10 +31,15 @@ var ITEMS_PER_PAGE = 5;
 
 // Hardcoded USERID for use with the shopping cart portion
 var USERID = "558098a65133816958968d88";
+// Mongo Atlas Connection String
+var uri = "mongodb://zimejin:zim118239@cluster0-shard-00-00-vuukn.mongodb.net:27017,cluster0-shard-00-01-vuukn.mongodb.net:27017,cluster0-shard-00-02-vuukn.mongodb.net:27017/mongomart?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin"
 
-MongoClient.connect('mongodb://localhost:27017/mongomart', function(err, db) {
-    "use strict";
+/*  Local Server Connection String
+    MongoClient.connect('mongodb://localhost:27017/mongomart', function(err, db) {
+    "use strict"; */
 
+    MongoClient.connect(uri, function(err, db) {
+        
     assert.equal(null, err);
     console.log("Successfully connected to MongoDB.");
 
