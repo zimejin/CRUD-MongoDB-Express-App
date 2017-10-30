@@ -17,7 +17,7 @@ Screen Shots
 ------------------
 
 
-![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen-shot/sreen%20mart.png?raw=true)
+![Image](https://github.com/zimejin/Mongo-Mart-MongoDB-Node-Express-Application-/blob/master/sreen-shot/sreen%20mart.png?raw=true)
 
 
 Requires
@@ -28,13 +28,13 @@ Knowledge of Commandline interface.
 Getting Started (windows)
 
 
-![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen-shot/pc%20mart.jpg?raw=true)
+![Image](https://github.com/zimejin/Mongo-Mart-MongoDB-Node-Express-Application-/blob/master/sreen-shot/pc%20mart.jpg?raw=true)
 
 ----------------------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------------------
 
-![Image](https://github.com/zimejin/Mongo-mart/blob/master/sreen-shot/ScreenShot%20mart.png?raw=true)
+![Image](https://github.com/zimejin/Mongo-Mart-MongoDB-Node-Express-Application-/blob/master/sreen-shot/ScreenShot%20mart.png?raw=true)
 
 
 ----------------------------------------------------------------------------------------------------------------------
