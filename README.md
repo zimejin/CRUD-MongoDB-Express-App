@@ -1,18 +1,5 @@
 LIVE PREVIEW  - https://mongomartapp.herokuapp.com/
 
-
-About
-
-Mongo-Mart | PCMR was my final lab project in mongodb for Node.js Developers course provided by MongoDB. 
-I've iterated through the project a couple of times to add new features or UI updates.
-
-MongoMart | PCMR is an ecommerce application that allows the user to browse for and add products to their cart.
-There is no user session at the moment, so the user id is hard coded. The products images are license free images from
-Google images and Amazon, product descriptions and YouTube Videos as well.
-
- Sincerely
- 
- Zimejin!
  
 ----------------------------------------------------------------------------------------------------------------------
 
