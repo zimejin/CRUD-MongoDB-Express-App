@@ -32,10 +32,3 @@ Screen Shots
 
 ----------------------------------------------------------------------------------------------------------------------
 
-
-Todo
-
-* Firebase Authentication [ Email ]
-* Payment Request API [ Demo ] 
-* Material Design Lite [ Navbar and Sidebar ]
-* TypeScript, Webpack Build?
